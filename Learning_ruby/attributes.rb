@@ -32,7 +32,6 @@ class ColorPoint
   #make x and y read only
   attr_reader:x
   attr_reader:y
-
 end
 
 cp = ColorPoint.new(3,5,"red")
