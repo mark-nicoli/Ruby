@@ -30,6 +30,7 @@ class Line
   end
 end
 
+#print to test
 point1 = Point.new(0,0)
 point2 = Point.new(3,0)
 line = Line.new(point1, point2)
