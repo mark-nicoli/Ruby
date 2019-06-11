@@ -11,7 +11,7 @@ class Point
   attr_writer:x   #allows x=? access
   attr_writer:y
 
-  def to_s
+  def to_s    #to string method
     "(#{@x},#{@y})"
   end
 end
