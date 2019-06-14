@@ -7,3 +7,15 @@ end
 if (line2 =~ /dogs(.*)/)
   puts "Line 2 contains the word Dogs"
 end
+
+
+#search for somethign and replace it using regex
+phone = "2004-959-559 #This is Phone Number"
+
+# Delete Ruby-style comments
+phone = phone.sub!(/#.*$/, "")
+puts "Phone Num : #{phone}"
+
+# Remove anything other than numbers (remove lines)
+phone = phone.gsub!(/\D/, "")
+puts "Phone Num : #{phone}"
