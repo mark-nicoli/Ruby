@@ -8,6 +8,8 @@ if (line2 =~ /dogs(.*)/)
   puts "Line 2 contains the word Dogs"
 end
 
+#The sub & sub! replaces the first occurrence of
+#the pattern and gsub & gsub! replaces all occurrences.
 
 #search for somethign and replace it using regex
 phone = "2004-959-559 #This is Phone Number"
