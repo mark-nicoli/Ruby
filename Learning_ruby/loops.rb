@@ -37,3 +37,7 @@ puts "each iterator"
 (-3...3).each do |j|   #from -3 to +3 print the value of J
   puts "#{j}"
 end
+
+    
+    
+  
