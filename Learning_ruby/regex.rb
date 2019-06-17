@@ -14,7 +14,7 @@ end
 #search for somethign and replace it using regex
 phone = "2004-959-559 #This is Phone Number"
 
-# Delete Ruby-style comments
+# Delete Ruby-style comments. Deletes #This is Phone Number
 phone = phone.sub!(/#.*$/, "")
 puts "Phone Num : #{phone}"
 
