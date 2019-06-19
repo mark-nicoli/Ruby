@@ -27,9 +27,10 @@ class Counter
     @@instance_count += 1
   end
   def how_many
-    puts "#@@instance_count instances of Counter" # #hash makes a variable into a string
+    puts "#@@instance_count instances of Counter" # hash makes a variable into a string
   end
 end
+
   counter1 = Counter.new
   counter1.how_many
   counter2 = Counter.new
