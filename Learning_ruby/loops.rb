@@ -31,9 +31,8 @@ end until $count_until < 0
 puts "for loop"
 for i in 0..10   #inclusive range is denoted by .. between the 2 ranges
   puts "#{i}"    #print the values from 0-10 inclusive
-  
-end
 
+end
 puts "each iterator"
 (-3...3).each do |j|   #from -3 to +3 print the value of J
   puts "#{j}"
