@@ -7,7 +7,6 @@ Subject: SMTP e-mail test
 
 This is a test e-mail message sent using ruby.
 MESSAGE_END
-
 Net::SMTP.start('mark21198@gmail.com') do |smtp|
   smtp.send_message message, 'mark21198@gmail.com', 'marknicoli21198@gmail.com'
 end
