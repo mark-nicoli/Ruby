@@ -22,4 +22,4 @@ puts "Phone Num : #{phone}"
 # Remove anything other than numbers (remove lines)
 phone = phone.gsub!(/\D/, "")
 puts "Phone Num : #{phone}"
-#test
+
