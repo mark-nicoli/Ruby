@@ -1,3 +1,4 @@
+
 line1 = "cats are smarter than dogs"
 line2 = "dogs are animals"
 
